@@ -1,0 +1,238 @@
+*{
+ margin:0px;
+ padding:1px;
+ /*cursor: progress;*/
+}
+
+label:hover,
+ h1:hover, td:hover, small:hover{
+  color:#ccc;
+}
+
+.bd{/*body*/
+  background-color:#ccc;
+ 	font-family:cursive;
+ 	margin:20px auto;
+ 	width:90%;
+}
+
+.bd:active {
+  text-decoration:underline;
+  background-color:#ccc;
+}
+
+.a{
+  text-align:left;
+  padding:20px 10px;
+  text-decoration:none;
+  color:#14918f;
+  font-family:cursive;
+}
+
+a:hover{
+	text-decoration:underline;
+	font-size:25px;
+	background:#ccc;
+	color:#000;
+}
+
+.msu{
+padding: 2px 2px 0px 2px;
+border-bottom:4px solid #ccc;
+border-radius:20px;
+}
+
+#Lastfisrt_name{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+#LastSecond_name{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+#Surname{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+
+#Secondsurname{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+#dni{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+#date_birth{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+#email{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+#number{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+.pto{
+border-radius:30px;
+border:0px;
+padding:3px;
+text-align:center;
+}
+
+.pt{
+background-color:rgba(209,6,95,1);
+border-radius:15px;
+max-height:3000px;
+}
+
+label{
+
+}
+
+#nationality{
+border-radius:30px;
+border:0px;
+padding:4px;
+}
+
+#LaborExpc{
+  border-radius: 30px;
+  border:0px;
+  padding:3px;
+  text-align:center;
+  position:relative;
+  bottom:7px;
+}
+
+#mar:hover{
+  cursor: pointer;
+  color:orange;
+}
+
+#sin:hover{
+  color:blue;
+}
+
+#divo:hover{
+  color:turquoise;
+}
+
+#wido:hover{
+  color:purple;
+}
+
+#mujer:hover{
+  color:purple;
+}
+
+#hombre:hover{
+  color:blue;
+}
+
+hr{
+  position: both;
+}
+
+.pi{
+  border-radius:10px;
+  padding:5px;
+  background-color:grey;
+}
+
+.c1{
+  position:relative;
+  left:-25px;
+}
+
+.c2,.number{
+  position:relative;
+  right:30px;
+}
+
+.c3{
+  position:relative;
+  right:60px;
+}
+
+.add{
+  padding:3px;
+  border: 0px solid black;
+  border-radius:5px;
+}
+.add:hover{
+  padding:5px;
+  border: 0px solid black;
+  border-radius:5px;
+  font-size:17px;
+  background-color:grey;
+  color:white;
+} 
+
+.ar{
+  padding:3px;
+  border: 0px solid black;
+  border-radius:5px;
+}
+.ar:hover{
+  padding:5px;
+  border: 0px solid black;
+  border-radius:5px;
+  font-size:17px;
+  background-color:grey;
+  color:white;
+}
+
+.ad{
+  padding:3px;
+  border: 0px solid black;
+  border-radius:5px;
+}
+.ad:hover{
+  padding:5px;
+  border: 0px solid black;
+  border-radius:5px;
+  font-size:17px;
+  background-color:grey;
+  color:white;
+}
+
+.addd{
+  padding:3px;
+  border: 0px solid black;
+  border-radius:5px;
+}
+.addd:hover{
+  padding:5px;
+  border: 0px solid black;
+  border-radius:5px;
+  font-size:17px;
+  background-color:grey;
+  color:white;
+}

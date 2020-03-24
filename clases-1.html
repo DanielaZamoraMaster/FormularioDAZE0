@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>formulario de curriculum</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="clase-1.css">
+		<script src="jquery.js"></script>
+		<script src="Query.js"></script>
+	</head>
+
+<body class="bd">
+	<div class="pt">
+<center>
+<h1 title="Esto es un formulario de un curriculum">Curriculum vitae</h1>
+</center>
+
+<center>
+	<b>
+		<small class="msu" title="Debe llenar los espacion con informacion personal correspondiente a su persona">Register of information</small>
+	</b>
+</center>
+	<br>
+<table width="100%">
+	<tr> 
+		<td colspan="2" align="center" title="informacion personal" class="pi">Personal Infomation: </td>
+	</tr>  
+
+<tr align="center">
+	<td>
+	<label title="Primer nombre" for="Lastfisrt_name"> first name</labe>
+	</td>
+
+		<td>
+			<input type="text" name="first_name" id="Lastfisrt_name"  placeholder="Enter your first name" 
+			title="Enter your first name" size="50" autofocus="">
+			<!--<input type="color" name="micolor" id="micolor">-->
+			<br/>
+			<small>Enter your first name</small>
+		</td>
+	</tr>
+	
+	<tr align="center">
+		<td>
+			<label title="Segundo nombre" for="LastSecond_name">Second name</label>
+		</td>
+		<td>
+			<input type="text" name="Second_name" id="LastSecond_name"  placeholder="Enter your Second name" 
+			title="Enter your Second" size="50">
+			<br/>
+			<small>Enter your Second name</small>
+		</td>
+
+	</tr>
+	
+	<tr align="center">
+		<td>
+			<label title="Primer apellido" for="Surname">Surname</label>
+		</td>
+		<td>
+			<input type="text" name="Surname" id="Surname" placeholder="Enter your Surname" 
+			title="Enter your Surname" size="50">
+			<br/>
+			<small>Enter your Surname</small>
+		</td>
+	</tr>
+	
+	<tr align="center">
+		<td>
+			<label title="Segundo apellido" for="Secondsurname">Second surname</label>
+		</td>
+		<td>
+			<input type="text" name="Second surname" id="Secondsurname" 
+		 placeholder="Enter your Second surname" 
+			title="Enter your Second surname" size="50">
+			<br/>
+			<small>Enter your Second surname</small>
+		</td>
+
+	</tr>
+	
+	<tr align="center">
+		<td>
+			<label title="Cedula de identidad" for="nationality">DNI</label>
+		</td>
+		<td>
+			<select name="nationality" id="nationality"
+			title="Select your nationality">
+				<option value="V" title="Venezuelan">V</option>
+				<option value="E" title="Foreign">E</option>
+				<option value="J" title="Legal">J</option>
+				<option value="G" title="Governmental">G</option>
+			</select>
+			<input type="text" name="dni" id="dni"
+			title="Enter your DNI"  placeholder="Enter your DNI">
+			<br/>
+			<small>Enter your DNI</small>
+		</td>
+
+	</tr>
+	<tr align="center">
+		<td align="rigth">
+			<label title="Fecha de nacimiento" for="date_birth">Date of bird</label>
+		</td>
+		<td>
+			<input type="date" name="date_birth" id="date_birth"
+			title="Enter your date of birth" max="2020-02-21">
+			<br/>
+		    <small>Enter your Date of bird</small>
+		</td>
+		
+	</tr>
+	
+	
+	<tr align="center">
+	  <td align="rigth">
+	  <label title="Correo" for="email">Email</label>
+	  </td>
+	  <td>
+	  <input type="Email" name="email" id="email"
+	 placeholder="Enter your email" title="your email">
+	  <br/>
+	  	<small>Enter your Email</small>
+	  </td>
+	</tr>
+	
+	<tr align="center">
+	  <td align="rigth">
+	  <label title="Numero telefonico" for="number">Number</label>
+	  </td>
+	  <td>
+	  <input text="text" name="Number" id="number" 
+	 placeholder="Enter your number" title="your number" max="20">
+	  <br/>
+	  <small>Enter your Number</small>
+	  </td>
+	  
+	</tr>
+	
+	<tr align="center">
+	
+	  <td align="rigth">
+	   <label title="Estado civil actual">Actual state</label>
+	  </td>
+	<td>
+	<label id="mar" title="Casado">Married</label>
+	<input type="radio"
+	checked name="Actual state"
+	id="mar" value="Married" 
+	>
+	<label id="sin" title="Soltero">single</label>
+	<input type="radio"
+	checked name="Actual state"
+	id="sin" value="single">
+	
+	<label id="wido" title="Viudo">Widower</label>
+	<input type="radio"
+	checked name="Actual state"
+	id="wid" value="Widower">
+	
+	<label id="divo" title="Divorciado">Divorced</label>
+	<input type="radio"
+	checked name="Actual state"
+	id="divo" value="Divorced">
+	 <br/>
+	 <small>Enter your Actual state</small>
+	</td>
+</tr>
+		
+	<tr align="center">
+	<td align="rigth" ><label title="Direccion" for="ea">Direction</label></td>
+	<td>
+	<textarea cols="40" rows="5"  placeholder="Enter your Direction" class="pto" id="ea"></textarea>
+	<br/>
+	<small>Enter your Direction</small>
+	</td>
+	
+</tr>
+
+<tr align="center">
+	<td><label title="Sexo">Sex</label></td>
+	<td>
+	<label id="mujer" title="Mujer">Woman</label>
+	<input type="checkbox" name="" id="mujer" > 
+	<label id="hombre" title="Hombre">Man</label>
+	<input type="checkbox" name="" id="hombre" >
+	<label id="otros" title="Otros">Otros</label>
+	<input type="checkbox" name="" id="otros" >
+	</td>
+</tr>
+
+
+<tr> 
+	<td colspan="2" align="center" title="informacion personal" class="pi">Another tract: </td>
+	</tr> 
+
+<div>
+<tr align="center" class="box_1">
+	<td align="rigth"><label title="Experiencia laboral" for="el">Labor Experience</label></td>
+		<td>
+		<label class="c1">Company:</label>
+		<input type="text" name="Company" placeholder="Enter your Company" title="Ingrese en nombre de la empresa" class="info">
+		<br>
+		<label class="c2">Direction:</label>
+		<input type="text" name="Direction" placeholder="Enter your Direction" title="Ingrese la direccion de la institución" class="number">
+		<br>
+		<label class="c3">Time:</label>
+		<input type="date" name="Time" placeholder="Enter your Time" 
+		title="Ingrese su tiempo de duracion" class="fecha">  
+			<!--<input type="text" name="Labor_Experience" 
+			id="LaborExperience" title="Enter your Labor Experience" required="required" plalceholder="Ex: 894574749230274">-->
+			<br/>
+				<input type="button" value="Add" class="ar">
+		<ol class="my">
+			
+		</ol>
+		</td>
+		
+</tr>
+
+</div class="menu">
+<div class="#subname">
+
+<tr align="center">
+	<td>
+<label title="Estudios realizados" for="estudios">Realized studies</label>
+</td>
+	<td>
+		<label class="c1">Studies:</label>
+		<input type="text" name="studies" placeholder="Enter your Studies" title="Ingrese sus estudios realizados" class="infor">
+		<br>
+		<label class="c2">Institute:</label>
+		<input type="text" name="institute" placeholder="Enter your Institute" title="Ingrese el nombre de la institución" class="inst">
+		<br>
+		<label class="c3">Year:</label>
+		<input type="date" name="studies" placeholder="Enter your year studies" title="Ingrese sus años de estudios " class="año">
+		<br>
+			<input type="button" value="Add" class="ad">
+		<ol class="myli">
+			
+		</ol>
+	</td>
+</tr>
+</div>	
+<div>
+	<tr align="center">
+	<td><label title="Cursos realizados" for="cr">Realized courses</label></td>
+		<td>
+		<label class="c1">Courses:</label>
+		<input type="text" name="studies" placeholder="Enter your Courses" title="Ingrese sus cursos realizados" class="ccurso">
+		<br>
+		<label class="c2">Institute:</label>
+		<input type="text" name="institute" placeholder="Enter your Institute" title="Ingrese el nombre de la institución" class="inst2">
+		<br>
+		<label class="c3">Year:</label>
+		<input type="date" name="studies" placeholder="Enter your year studies" title="Ingrese el tiempo de duracion " class="dura">
+		<br>
+			<input type="button" value="Add" class="add">
+		<ol class="mylis">
+			
+		</ol>
+	</td>
+       
+</tr>
+</div>	
+<div>
+<tr align="center">
+<td><label title="Referencias personales" for="re">Personal references</label>
+</td>
+		<td>
+		<label class="c1">Name:</label>
+		<input class="c4" type="text" name="Name" placeholder="Enter your Name" title="Ingrese el nombre de la referencia personal ">
+		<br>
+		<label class="c2">phone:</label>
+		<input type="text" name="phone" placeholder="Enter your phone" title="Ingrese el numero de la referencia personal" class="c5">
+		<br>
+		<label class="c3">Year:</label>
+		<input class="c6" type="date" name="time" placeholder="Enter your duration time" title="Ingrese el tiempo de duracion " >
+		<br>
+			<input type="button" value="Add" class="addd">
+		<ol class="mylist">
+			
+		</ol>
+	</td>
+</tr>
+</div>
+
+</table>
+</form>
+</div>
+</div>
+
+<ul>
+  <li><a href="#" title="Enviar por correo">Enviar</a></li>
+  <li><a href="#" title="Descargue su curriculum aqui">Descarga aqui tu curriculum</a></li>	
+</ul>
+
+</body>
+</html>
